@@ -2,7 +2,7 @@
 
 A powerful tool for designing, customizing, and exporting React components with a visual interface.
 
-## Features
+## Features (Planned)
 
 - User Authentication and Management
 - Visual Component Designer
@@ -20,8 +20,8 @@ A powerful tool for designing, customizing, and exporting React components with 
 
 - Node.js
 - Yarn
-- Next.js (with Turbo)
-- React
+- Next.js 13 (with App Router)
+- React 18
 - TypeScript
 - Tailwind CSS
 - SQLite (via Prisma)
@@ -42,30 +42,26 @@ A powerful tool for designing, customizing, and exporting React components with 
 
 ## Installation
 
-1. Install Yarn (if not already installed):
-
-npm install -g yarn
-
-2. Clone the repository:
+1. Clone the repository:
 
 git clone https://github.com/evon-binns/ui-component-designer.git
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
 cd ui-component-designer
 
-4. Install dependencies:
+3. Install dependencies:
 
 yarn install
 
-5. Set up environment variables:
+4. Set up environment variables:
    Copy .env.example to .env and fill in the required values.
 
-6. Run database migrations:
+5. Run database migrations:
 
 yarn prisma migrate dev
 
-7. Start the development server:
+6. Start the development server:
 
 yarn dev
 
@@ -96,8 +92,8 @@ Evon Binns - [GitHub Profile](https://github.com/evon-binns)
 - [Node.js](https://nodejs.org/)
 - [Yarn](https://yarnpkg.com/)
 - [Next.js](https://nextjs.org/)
-- [Turbo](https://turbo.build/)
 - [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Prisma](https://www.prisma.io/)
 - [NextAuth.js](https://next-auth.js.org/)
