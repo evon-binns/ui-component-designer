@@ -30,6 +30,7 @@ A powerful tool for designing, customizing, and exporting React components with 
 - Monaco Editor
 - React-Live
 - Zustand
+- Shadcn/UI
 - Framer Motion
 - React Query
 - Jest
@@ -44,26 +45,26 @@ A powerful tool for designing, customizing, and exporting React components with 
 
 1. Clone the repository:
 
-git clone https://github.com/evon-binns/ui-component-designer.git
+`git clone https://github.com/evon-binns/ui-component-designer.git`
 
 2. Navigate to the project directory:
 
-cd ui-component-designer
+`cd ui-component-designer`
 
 3. Install dependencies:
 
-yarn install
+`yarn install`
 
 4. Set up environment variables:
    Copy .env.example to .env and fill in the required values.
 
 5. Run database migrations:
 
-yarn prisma migrate dev
+`yarn prisma migrate dev`
 
 6. Start the development server:
 
-yarn dev
+`yarn dev`
 
 ## Usage
 
@@ -87,7 +88,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 Evon Binns - [GitHub Profile](https://github.com/evon-binns)
 
-## Acknowledgements
+## Links
 
 - [Node.js](https://nodejs.org/)
 - [Yarn](https://yarnpkg.com/)
@@ -97,5 +98,6 @@ Evon Binns - [GitHub Profile](https://github.com/evon-binns)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Prisma](https://www.prisma.io/)
 - [NextAuth.js](https://next-auth.js.org/)
+- [Shadcn/UI](https://shadcn.github.io/ui/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Query](https://react-query.tanstack.com/)
