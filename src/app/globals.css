@@ -24,9 +24,6 @@
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
     --radius: 0.5rem;
-    --font-sans: 'Inter', system-ui, sans-serif;
-    --font-sans-tight: 'Inter Tight', system-ui, sans-serif;
-    --font-serif: 'Noto Serif', system-ui, serif;
   }
 
   .dark {
@@ -53,22 +50,19 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, p {
     @apply font-sans;
   }
-
+/* 
   p {
     @apply font-serif;
-  }
+  } */
 
-  * {
+  button, input, select, textarea {
     @apply font-sans-tight;
   }
 }
